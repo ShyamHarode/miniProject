@@ -1,0 +1,86 @@
+* {
+    margin: 0%;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.containerA {
+    max-width: 500px;
+    width: 70%;
+    height: 100vh;
+    text-decoration: none;
+    float: left;
+    padding: 20px;
+    margin-left: 30%;
+    text-overflow: ellipsis;
+    display: block;
+}
+
+body {
+    min-width: 290px;
+    color: #000000;
+    background-color: #ffffff;
+    line-height: 1.5;
+}
+
+#navbar {
+    min-width: 290px;
+    position: fixed;
+    padding-left: 5px;
+    width: 20%;
+    height: 100vh;
+    background-color: blue;
+    color: aliceblue;
+    float: left;
+}
+
+header {
+    color: black;
+    margin: 10px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#navbar li {
+    color: #c5c9de;
+    list-style: none;
+    width: 100%;
+}
+
+#navbar a {
+    padding: 10px 30px;
+    color: #ebedf7;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+section article {
+    color: black;
+    margin: 15px;
+    font-size: 15px;
+}
+
+section li {
+    margin: 15px 0px 0px 20px;
+}
+
+.course-notes li {
+    padding: 10px;
+}
+
+.code {
+    color: black;
+    background: white;
+}
+
+.help {
+    width: 70px;
+    float: right;
+    margin: 20px 30px;
+}
+
+.contact {
+    width: 70px;
+    float: right;
+    position: fixed;
+}
